@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout";
-import Swipper from "@/utils/Swipper";
 import React from "react";
 
 export default function Starter() {
@@ -161,7 +160,7 @@ export default function Starter() {
         <h1 className="text-left">Our Success Partners and Customers</h1>
       {/* Spinner Customers */}
       <div>
-<Swipper/>
+
       </div>
       </section>
     </Layout>

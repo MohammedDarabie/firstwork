@@ -9,12 +9,15 @@ const Header = () => {
         <img
           src="./img/itec-logo.jpg"
           alt="logo"
-          className="w-[74px] lg:w-[120px]"
+          className="w-[74px] lg:w-[120px] cursor-pointer"
+          onClick={() => {}}
         ></img>
       </div>
       {/* NAVBAR */}
       <ul className="flex space-x-2 lg:space-x-16 mr-9">
-        <li className="text-sm lg:text-xl cursor-pointer hover:text-blue-700">
+        <li
+          className="text-sm lg:text-xl cursor-pointer hover:text-blue-700"
+        >
           About ITEC
         </li>
         <li className=" text-sm lg:text-xl cursor-pointer hover:text-blue-700">
