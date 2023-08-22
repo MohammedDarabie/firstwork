@@ -170,6 +170,8 @@ const About = () => {
           Let's Talk
         </button>
       </div>
+      {/* Swipper 1st */}
+      {/* Swipper 2st */}
     </Layout>
   );
 };

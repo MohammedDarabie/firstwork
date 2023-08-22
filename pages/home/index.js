@@ -2,9 +2,7 @@ import Layout from "@/components/Layout";
 import React from "react";
 
 export default function Starter() {
-  const partners = [
-    './img/'
-  ]
+  const partners = ["./img/"];
   return (
     <Layout>
       {/*-------------------- Landing Picture --------------------*/}
@@ -112,9 +110,8 @@ export default function Starter() {
             solution for all your industry needs.
           </p>
           {/* Spinner Pictuers */}
-          <div className=" w-[75%] mx-auto">
-            <img src="./img/brands/1F.jpg"></img>
-          </div>
+          <div className=" w-[75%] mx-auto">{/* Implement Spinner Here */}</div>
+          {/* Second Images */}
           <div className="w-[75%] mx-auto">
             <img src="./img/saso.jpg"></img>
           </div>
@@ -158,10 +155,8 @@ export default function Starter() {
       {/* ------------------------------------------------------------ */}
       <section className="items-center space-y-12 text-center w-[75%] mx-auto my-20 lg:my-40 text-3xl font-bold">
         <h1 className="text-left">Our Success Partners and Customers</h1>
-      {/* Spinner Customers */}
-      <div>
-
-      </div>
+        {/* Spinner Customers */}
+        <div></div>
       </section>
     </Layout>
   );
