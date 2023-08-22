@@ -17,7 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Starter></Starter>
-      <Link href="/brand">gO TO BRAND</Link>
     </>
   );
 }
