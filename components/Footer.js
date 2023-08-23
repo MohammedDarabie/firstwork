@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -30,13 +31,27 @@ const Footer = () => {
         <div className="w-[75%]">
           <h1 className="text-2xl font-bold pb-5">Brands</h1>
           <ul className="space-y-2 font-semibold ">
-            <li className="cursor-pointer">LINX</li>
-            <li className="cursor-pointer">RN Mark</li>
-            <li className="cursor-pointer">Zebra</li>
-            <li className="cursor-pointer">Extend</li>
-            <li className="cursor-pointer">Ohaus</li>
-            <li className="cursor-pointer">Prisma</li>
-            <li className="cursor-pointer">Filma</li>
+            <Link href="/">
+              <li className="cursor-pointer">LINX</li>
+            </Link>
+            <Link href="/">
+              <li className="cursor-pointer">RN Mark</li>
+            </Link>
+            <Link href="/">
+              <li className="cursor-pointer">Zebra</li>
+            </Link>
+            <Link href="/">
+              <li className="cursor-pointer">Extend</li>
+            </Link>
+            <Link href="/Ohaus">
+              <li className="cursor-pointer">Ohaus</li>
+            </Link>
+            <Link href="/Prisma">
+              <li className="cursor-pointer">Prisma</li>
+            </Link>
+            <Link href="/Filma">
+              <li className="cursor-pointer">Filma</li>
+            </Link>
           </ul>
         </div>
         {/* Fourth COlumn */}

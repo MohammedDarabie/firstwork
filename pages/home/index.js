@@ -46,6 +46,7 @@ export default function Starter() {
       {/*-------------------- Our Brands Section --------------------*/}
       {/* ------------------------------------------------------------ */}
       <section
+      id="brands"
         style={{ backgroundImage: "url(./img/our_brands_pic.jpg)" }}
         className="bg-cover grid grid-cols-1 lg:grid-cols-2 "
       >
