@@ -1,21 +1,25 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/pagination";
 
-import { Pagination } from "swiper";
-const Swipper = () => {
+const Swipper = (props) => {
   return (
     <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
+      modules={[Navigation, Pagination, Autoplay]}
+      spaceBetween={0}
+      slidesPerView={4}
+      autoplay={{delay : 2000}}
+      navigation
+      pagination={{ clickable: true }}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      {props.brand.map((e, i) => {
+        return (
+          <SwiperSlide className="w-fit flex">
+            <img className="w-[200px]" src={props.brand[i].path}></img>
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 };

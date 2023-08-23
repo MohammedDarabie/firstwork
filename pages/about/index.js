@@ -1,7 +1,41 @@
 import Layout from "@/components/Layout";
 import React from "react";
-
+import Swipper from "@/components/Swipper";
 const About = () => {
+  const brandsLinks = [
+    { alt: "brands_log", path: "./img/brands/extend_logo.png" },
+    { alt: "brands_log", path: "./img/brands/rn_mark.jpg" },
+    { alt: "brands_log", path: "./img/brands/prisma.png" },
+    { alt: "brands_log", path: "./img/brands/filma.jpg" },
+    { alt: "brands_log", path: "./img/brands/linx1.jpg" },
+    { alt: "brands_log", path: "./img/brands/ohaus.jpg" },
+    { alt: "brands_log", path: "./img/brands/zebra.jpg" },
+  ];
+
+  const customersLinks = [
+    { alt: "brands_log", path: "./img/Logos/riyadh_foodInd.jpg" },
+    { alt: "brands_log", path: "./img/Logos/Almarai_Corporate_Logo.svg" },
+    { alt: "brands_log", path: "./img/Logos/alZamil.jpeg" },
+    { alt: "brands_log", path: "./img/Logos/naqi.png" },
+    { alt: "brands_log", path: "./img/Logos/entaj.jpg" },
+    { alt: "brands_log", path: "./img/Logos/indomie.png" },
+    { alt: "brands_log", path: "./img/Logos/halawani.png" },
+    { alt: "brands_log", path: "./img/Logos/NADEC-New-logo-.png" },
+    { alt: "brands_log", path: "./img/Logos/Nestle-Logo.png" },
+    { alt: "brands_log", path: "./img/Logos/emad.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/AlFanar.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/almunif.gif" },
+    { alt: "brands_log", path: "./img/Logos/cabels/avalon.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/jeddah_company.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/al-manar.jfif" },
+    { alt: "brands_log", path: "./img/Logos/cabels/saveto.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/sedco.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/sappco.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/rajhi_pipes.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/riyadh_cabels.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/mada.jpg" },
+    { alt: "brands_log", path: "./img/Logos/cabels/view.png" },
+  ];
   return (
     <Layout>
       {/* About Us Image */}
@@ -170,8 +204,16 @@ const About = () => {
           Let's Talk
         </button>
       </div>
-      {/* Swipper 1st */}
-      {/* Swipper 2st */}
+      {/* First Swipper */}
+      <div className="mb-20 lg:w-[75%] mx-auto">
+        <h1 className="font-semibold text-3xl text-center mb-10">Brands</h1>
+        <Swipper brand={brandsLinks} />
+      </div>
+      {/* Second Swipper */}
+      <div className="mb-20 lg:w-[75%] mx-auto ">
+        <h1 className="font-semibold text-3xl text-center mb-10">Clients</h1>
+        <Swipper brand={customersLinks} />
+      </div>
     </Layout>
   );
 };
