@@ -277,9 +277,13 @@ const Header = () => {
         </ul>
       </nav>
       <div className="flex space-x-3 mt-2 lg:mt-0">
-        <BsWhatsapp className=" text-3xl cursor-pointer text-green-600" />
+        <Link href="https://wa.me/966557912129">
+          <BsWhatsapp className=" text-3xl cursor-pointer text-green-600" />
+        </Link>
         <BsLinkedin className=" text-3xl cursor-pointer text-blue-600" />
-        <BsTwitter className="text-3xl cursor-pointer text-blue-600" />
+        <Link href="https://twitter.com/ITEC_SA_" target="_blank">
+          <BsTwitter className="text-3xl cursor-pointer text-blue-600" />
+        </Link>
       </div>
     </header>
   );

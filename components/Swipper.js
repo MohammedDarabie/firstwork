@@ -15,8 +15,8 @@ const Swipper = (props) => {
     >
       {props.brand.map((e, i) => {
         return (
-          <SwiperSlide className="w-fit flex">
-            <img className="w-[200px]" src={props.brand[i].path}></img>
+          <SwiperSlide  className="w-fit flex">
+            <img key={e[i]} className="w-[200px]" src={props.brand[i].path}></img>
           </SwiperSlide>
         );
       })}
