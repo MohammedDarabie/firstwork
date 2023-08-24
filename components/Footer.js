@@ -21,26 +21,34 @@ const Footer = () => {
         <div className="w-[75%]">
           <h1 className="text-2xl font-bold pb-5">Solutions</h1>
           <ul className="space-y-2 font-semibold ">
-            <li className="cursor-pointer">Printing and Coding</li>
-            <li className="cursor-pointer">Inspection and Quality Control</li>
-            <li className="cursor-pointer">Scales and Balances</li>
-            <li className="cursor-pointer">Wrapping and Packaging</li>
+            <Link href="/Linx">
+              <li className="cursor-pointer">Printing and Coding</li>
+            </Link>
+            <Link href="/Prisma">
+              <li className="cursor-pointer">Inspection and Quality Control</li>
+            </Link>
+            <Link href="/Ohaus">
+              <li className="cursor-pointer">Scales and Balances</li>
+            </Link>
+            <Link href="/Filma">
+              <li className="cursor-pointer">Wrapping and Packaging</li>
+            </Link>
           </ul>
         </div>
         {/* Third Column */}
         <div className="w-[75%]">
           <h1 className="text-2xl font-bold pb-5">Brands</h1>
           <ul className="space-y-2 font-semibold ">
-            <Link href="/">
+            <Link href="/Linx">
               <li className="cursor-pointer">LINX</li>
             </Link>
-            <Link href="/">
+            <Link href="/Rn-Mark">
               <li className="cursor-pointer">RN Mark</li>
             </Link>
-            <Link href="/">
+            <Link href="/Zebra">
               <li className="cursor-pointer">Zebra</li>
             </Link>
-            <Link href="/">
+            <Link href="/Extend">
               <li className="cursor-pointer">Extend</li>
             </Link>
             <Link href="/Ohaus">
@@ -58,11 +66,21 @@ const Footer = () => {
         <div className="w-[75%]">
           <h1 className="text-2xl font-bold pb-5">ITEC</h1>
           <ul className="space-y-2 font-semibold ">
-            <li className="cursor-pointer">Home</li>
-            <li className="cursor-pointer">About</li>
-            <li className="cursor-pointer">Our Customers</li>
-            <li className="cursor-pointer">Contact Us</li>
-            <li className="cursor-pointer">WhatsApp</li>
+            <Link href="/">
+              <li className="cursor-pointer">Home</li>
+            </Link>
+            <Link href="/about">
+              <li className="cursor-pointer">About</li>
+            </Link>
+            <Link href="/home/#brands">
+              <li className="cursor-pointer">Brands</li>
+            </Link>
+            <Link href="/">
+              <li className="cursor-pointer">Contact Us</li>
+            </Link>
+            <Link href="/">
+              <li className="cursor-pointer">WhatsApp</li>
+            </Link>
           </ul>
         </div>
       </div>

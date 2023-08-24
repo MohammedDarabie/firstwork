@@ -1,8 +1,41 @@
 import Layout from "@/components/Layout";
 import React from "react";
+import Swipper from "@/components/Swipper";
 
 export default function Starter() {
-  const partners = ["./img/"];
+  const customersLinks = [
+    { alt: "brands_log", path: "./img/Logos/riyadh_foodInd.jpg" },
+    { alt: "brands_log", path: "./img/Logos/Almarai_Corporate_Logo.svg" },
+    { alt: "brands_log", path: "./img/Logos/alZamil.jpeg" },
+    { alt: "brands_log", path: "./img/Logos/naqi.png" },
+    { alt: "brands_log", path: "./img/Logos/entaj.jpg" },
+    { alt: "brands_log", path: "./img/Logos/indomie.png" },
+    { alt: "brands_log", path: "./img/Logos/halawani.png" },
+    { alt: "brands_log", path: "./img/Logos/NADEC-New-logo-.png" },
+    { alt: "brands_log", path: "./img/Logos/Nestle-Logo.png" },
+    { alt: "brands_log", path: "./img/Logos/emad.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/AlFanar.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/almunif.gif" },
+    { alt: "brands_log", path: "./img/Logos/cabels/avalon.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/jeddah_company.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/al-manar.jfif" },
+    { alt: "brands_log", path: "./img/Logos/cabels/saveto.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/sedco.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/sappco.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/rajhi_pipes.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/riyadh_cabels.png" },
+    { alt: "brands_log", path: "./img/Logos/cabels/mada.jpg" },
+    { alt: "brands_log", path: "./img/Logos/cabels/view.png" },
+  ];
+  const brandsLinks = [
+    { alt: "brands_log", path: "./img/brands/extend_logo.png" },
+    { alt: "brands_log", path: "./img/brands/rn_mark.jpg" },
+    { alt: "brands_log", path: "./img/brands/prisma.png" },
+    { alt: "brands_log", path: "./img/brands/filma.jpg" },
+    { alt: "brands_log", path: "./img/brands/linx1.jpg" },
+    { alt: "brands_log", path: "./img/brands/ohaus.jpg" },
+    { alt: "brands_log", path: "./img/brands/zebra.jpg" },
+  ];
   return (
     <Layout>
       {/*-------------------- Landing Picture --------------------*/}
@@ -21,12 +54,12 @@ export default function Starter() {
       {/*-------------------- About Us Section --------------------*/}
       {/* ------------------------------------------------------------ */}
       <section className="flex flex-col items-center space-y-12 text-center w-[75%] mx-auto my-20 lg:my-40">
-        <h1 className="font-bold text-lg lg:text-xl ">About Us</h1>
-        <p className="font-bold text-2xl lg:text-4xl w-full lg:w-[650px] mx-auto">
+        <h1 className="font-bold text-xl lg:text-3xl ">About Us</h1>
+        <p className="font-bold text-2xl lg:text-4xl w-full lg:w-[75%] mx-auto">
           16 Years Of Excellence In Supplying and Manufacturing Printing and
           Packaging Solutions For The Saudi Market With Quality At It's Best!
         </p>
-        <p className="w-full lg:w-[650px] mb-20 text-center mx-auto text-lg lg:text-xl">
+        <p className="w-full lg:w-[90%] mb-20 text-center mx-auto text-lg lg:text-2xl">
           With 16 years of experience in the Saudi market, ITEC had been a main
           partner of success to many factories and industrial cities, by
           offering industrial equipment, weighing, packaging, printing, coding
@@ -36,7 +69,7 @@ export default function Starter() {
           manufacturers and exclusive brands include many prestige’s names like
           Linx, Prisma, Filma, Extend, Zebra, Rn mark, Ohaus and many more
         </p>
-        <p className="w-full lg:w-[650px] mb-20 text-center mx-auto text-lg lg:text-xl">
+        <p className="w-full lg:w-[650px] mb-20 text-center mx-auto text-lg lg:text-2xl">
           With the most reliable after sales service and maintenance available
           in the market we grantee you an ease of mind and a fruitful
           partnership.
@@ -46,7 +79,7 @@ export default function Starter() {
       {/*-------------------- Our Brands Section --------------------*/}
       {/* ------------------------------------------------------------ */}
       <section
-      id="brands"
+        id="brands"
         style={{ backgroundImage: "url(./img/our_brands_pic.jpg)" }}
         className="bg-cover grid grid-cols-1 lg:grid-cols-2 "
       >
@@ -111,7 +144,7 @@ export default function Starter() {
             solution for all your industry needs.
           </p>
           {/* Spinner Pictuers */}
-          <div className=" w-[75%] mx-auto">{/* Implement Spinner Here */}</div>
+          <div className=" w-[75%] mx-auto"><Swipper brand={brandsLinks}></Swipper></div>
           {/* Second Images */}
           <div className="w-[75%] mx-auto">
             <img src="./img/saso.jpg"></img>
@@ -132,19 +165,19 @@ export default function Starter() {
         {/* Industrial Pictures */}
         <div className="flex flex-col lg:flex-row ">
           <div className="m-2">
-            <img src="./img/Krones.jpg"></img>
+            <img src="./img/Krones.jpg" className="w-[600px]"></img>
             <h1 className="font-bold text-lg lg:text-xl text-left  pt-2 lg:pt-5 cursor-pointer">
               Food and Beverage Industries
             </h1>
           </div>
           <div className="m-2">
-            <img src="./img/Krones.jpg"></img>
+            <img src="./img/Cable-Factory.jpg" className="w-[600px]"></img>
             <h1 className="font-bold text-lg lg:text-xl text-left pt-2 lg:pt-5 cursor-pointer">
               Cables and Pipes Industries
             </h1>
           </div>
           <div className="m-2">
-            <img src="./img/Krones.jpg"></img>
+            <img src="./img/istockphoto-504898476-612x612.jpg" className="w-[600px]"></img>
             <h1 className="font-bold text-lg lg:text-xl text-left pt-2 lg:pt-5 cursor-pointer">
               Chemicals Industry
             </h1>
@@ -154,10 +187,15 @@ export default function Starter() {
       {/* ------------------------------------------------------------ */}
       {/*-------------------- Our Customers Section --------------------*/}
       {/* ------------------------------------------------------------ */}
-      <section className="items-center space-y-12 text-center w-[75%] mx-auto my-20 lg:my-40 text-3xl font-bold">
+      <section
+        id="customers"
+        className="items-center space-y-12 text-center w-[75%] mx-auto my-20 lg:my-40 text-xl lg:text-3xl font-bold"
+      >
         <h1 className="text-left">Our Success Partners and Customers</h1>
         {/* Spinner Customers */}
-        <div></div>
+        <div className="mb-20 lg:w-[75%] mx-auto ">
+        <Swipper brand={customersLinks} />
+      </div>
       </section>
     </Layout>
   );

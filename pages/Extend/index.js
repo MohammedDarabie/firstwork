@@ -36,7 +36,7 @@ const Extend = () => {
           PALLET WRAPPER
         </p>
         {/* Products */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-36">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center lg:my-36">
           <img src="./img/Products/Extend/1.png" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
@@ -64,10 +64,10 @@ const Extend = () => {
           </div>
         </div>
         {/* Products */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-36">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center lg:my-36">
           <img src="./img/Products/Extend/2.png" className="w-[400px]"></img>
           {/* Product Details */}
-          <div className=" space-y-5 my-10">
+          <div className=" space-y-5 lg:my-10">
             <h1 className="text-2xl lg:text-4xl font-bold text-left">
               EXP-108
             </h1>

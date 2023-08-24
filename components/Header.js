@@ -208,13 +208,13 @@ const Header = () => {
                 <input type="checkbox" id="services" />
                 <ul class="menu-dropdown">
                   <li>
-                    <a href="">LINX</a>
+                    <a href="/Linx">LINX</a>
                   </li>
                   <li>
-                    <a href="">RN Mark</a>
+                    <a href="/Rn-Mark">RN Mark</a>
                   </li>
                   <li>
-                    <a href="">Zebra</a>
+                    <a href="/Zebra">Zebra</a>
                   </li>
                 </ul>
               </li>
@@ -269,11 +269,11 @@ const Header = () => {
             <a href="/home/#brands">Brands</a>
           </li>
           <li className="text-sm lg:text-xl cursor-pointer hover:text-blue-700">
-            <a href="#">Customers</a>
+            <a href="/home/#customers">Customers</a>
           </li>
-          <li className="text-sm lg:text-xl cursor-pointer hover:text-blue-700">
+          {/* <li className="text-sm lg:text-xl cursor-pointer hover:text-blue-700">
             <a href="#">Contact Us</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <div className="flex space-x-3 mt-2 lg:mt-0">
