@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Link from "next/link";
 import React from "react";
 
 const Ohaus = () => {
@@ -14,7 +15,9 @@ const Ohaus = () => {
       <div className=" w-[90%] lg:w-[60%] mx-auto my-20">
         {/* Title Description */}
         <div className="  my-10 space-y-4 ">
-          <h1 className=" text-2xl lg:text-4xl font-bold text-center">Industrial Scales</h1>
+          <h1 className=" text-2xl lg:text-4xl font-bold text-center">
+            Industrial Scales
+          </h1>
           <p className=" text-2xl lg:text-4xl font-bold text-left">
             Wide range of scales available, below are some examples of our
             provided solutions
@@ -31,7 +34,9 @@ const Ohaus = () => {
         </div>
         {/* Ohaus Advantage */}
         <div className="my-10 space-y-4">
-          <h1 className="text-2xl lg:text-4xl font-bold text-left">THE OHAUS ADVANTAGE</h1>
+          <h1 className="text-2xl lg:text-4xl font-bold text-left">
+            THE OHAUS ADVANTAGE
+          </h1>
           <p className=" text-lg lg:text-xl ">
             OHAUS has been producing safe, precise, and reliable scales,
             analytical instruments, and laboratory equipment since Gustav and
@@ -44,10 +49,15 @@ const Ohaus = () => {
         </div>
         {/* Products */}
         <div className="grid grid-cols-1 lg:grid-cols-2 ">
-          <img src="./img/Products/Ohous/Ind_Scales.jpg" className="w-[400px]"></img>
+          <img
+            src="./img/Products/Ohous/Ind_Scales.jpg"
+            className="w-[400px]"
+          ></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
-            <h1 className="text-2xl lg:text-4xl font-bold text-left">FLOOR SCALES</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold text-left">
+              FLOOR SCALES
+            </h1>
             <h3 className="font-bold text-xl lg:text-2xl">
               DEFENDER™ 5000 FLOOR SCALES – DF52
             </h3>
@@ -55,7 +65,7 @@ const Ohaus = () => {
               Prime German quality Floor Scales Full-fill Even the Most
               demanding Industry Applications
             </p>
-            <p className= "text-md lg:text-lg">
+            <p className="text-md lg:text-lg">
               The OHAUS next generation Defender 5000 Series Floor Scale is a
               solid lineup of floor and pit mount scales that do not compromise
               on quality for industrial applications. Powered by four stainless
@@ -64,6 +74,17 @@ const Ohaus = () => {
               offer a unique combination of affordability, versatility and
               quality that your company can depend on for years and years.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/7-Ohaus/Defender5000.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 2 */}
@@ -71,7 +92,9 @@ const Ohaus = () => {
           <img src="./img/Products/Ohous/2.jpg" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
-            <h1 className="text-2xl lg:text-4xl font-bold text-left">SHIPPING SCALES</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold text-left">
+              SHIPPING SCALES
+            </h1>
             <h3 className="font-bold text-xl lg:text-2xl">CATAPULT™ 5000</h3>
             <p className="text-md lg:text-lg">
               The Heavy-Duty Shipping Scale that Combines Utility and Economy
@@ -83,6 +106,17 @@ const Ohaus = () => {
               great scale for small businesses, mail rooms, warehouses and even
               industrial environments.
             </p>
+             {/*------------------- download Manual -----------------------------*/}
+             <Link
+              href="./dataSheets/7-Ohaus/CATAPULT™5000.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 3 */}
@@ -90,7 +124,9 @@ const Ohaus = () => {
           <img src="./img/Products/Ohous/3.jpg" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
-            <h1 className="text-2xl lg:text-4xl font-bold text-left">COUNTING SCALES</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold text-left">
+              COUNTING SCALES
+            </h1>
             <h3 className="font-bold text-xl lg:text-2xl">RANGE 2000 COUNT</h3>
             <p className="ttext-md lg:text-lg">
               Effective Counting Scales to Ensure Accurate Results The Ranger
@@ -103,6 +139,17 @@ const Ohaus = () => {
               functions and features that elevate the Ranger Count 2000 to a
               class of its own.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/7-Ohaus/RANGE2000COUNT.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 4 */}
@@ -110,8 +157,12 @@ const Ohaus = () => {
           <img src="./img/Products/Ohous/4.jpg" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
-            <h1 className="text-2xl lg:text-4xl font-bold text-left">BENCH SCALES</h1>
-            <h3 className="font-bold text-xl lg:text-2xl">DEFENDER 6000 WASHDOWN</h3>
+            <h1 className="text-2xl lg:text-4xl font-bold text-left">
+              BENCH SCALES
+            </h1>
+            <h3 className="font-bold text-xl lg:text-2xl">
+              DEFENDER 6000 WASHDOWN
+            </h3>
             <p className="text-md lg:text-lg">
               Advanced IP68/IP69k Washdown Bench Scale The Defender 6000 Series
               Extreme Washdown Bench Scale is specifically designed for food,
@@ -122,6 +173,17 @@ const Ohaus = () => {
               meets metrological approvals, NSF listing, and supporting HACCP
               systems.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/7-Ohaus/DEFENDER6000WASHDOWN.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 5 */}
@@ -129,7 +191,9 @@ const Ohaus = () => {
           <img src="./img/Products/Ohous/5.jpg" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
-            <h1 className="text-2xl lg:text-4xl font-bold text-left">PRECISION BALANCES</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold text-left">
+              PRECISION BALANCES
+            </h1>
             <h3 className="font-bold text-xl lg:text-2xl">PIONEER PRECISION</h3>
             <p className="text-md lg:text-lg">
               Affordable Balance to Achieve Reliable Results
@@ -143,6 +207,17 @@ const Ohaus = () => {
               information, and USB and RS232 connectivity for easy
               communication.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/7-Ohaus/PIONEERPRECISION.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 6 */}
@@ -150,7 +225,9 @@ const Ohaus = () => {
           <img src="./img/Products/Ohous/6.jpg" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
-            <h1 className="text-2xl lg:text-4xl font-bold text-left">MOISTURE ANALYZERS</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold text-left">
+              MOISTURE ANALYZERS
+            </h1>
             <h3 className="font-bold text-xl lg:text-2xl">MB23</h3>
             <p className="text-md lg:text-lg">
               Outstanding Performance, Flexible Configuration and Reliable
@@ -163,6 +240,17 @@ const Ohaus = () => {
               non-glass infrared heating element, the MB23 offers moisture
               analysis for any budget.
             </p>
+             {/*------------------- download Manual -----------------------------*/}
+             <Link
+              href="./dataSheets/7-Ohaus/MB23.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

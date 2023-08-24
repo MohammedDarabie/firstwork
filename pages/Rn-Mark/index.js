@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Link from "next/link";
 import React from "react";
 
 const RNMark = () => {
@@ -45,10 +46,7 @@ const RNMark = () => {
         </div>
         {/*--------------------- Products 1 ---------------------*/}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-          <img
-            src="./img/Products/RN/1.png"
-            className="w-[400px]"
-          ></img>
+          <img src="./img/Products/RN/1.png" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
             <h1 className="text-2xl lg:text-4xl font-bold text-left">
@@ -72,14 +70,22 @@ const RNMark = () => {
               through RS-232, Ethernet, or USB, it can be controlled and
               operated from anywhere in the production facility.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/2-RNMark/RNJetEP-6H+EggPrinter.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*--------------------- Products 2 ---------------------*/}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-          <img
-            src="./img/Products/RN/2.png"
-            className="w-[400px]"
-          ></img>
+          <img src="./img/Products/RN/2.png" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
             <h1 className="text-2xl lg:text-4xl font-bold text-left">
@@ -104,14 +110,19 @@ const RNMark = () => {
               counters, barcodes, time, Dynamic Data-base and dates on a variety
               of porous & non-porous surfaces with superior print resolution.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/2-RNMark/RNJet100.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*--------------------- Products 3 ---------------------*/}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-          <img
-            src="./img/Products/RN/3.png"
-            className="w-[400px]"
-          ></img>
+          <img src="./img/Products/RN/3.png" className="w-[400px]"></img>
           {/* Product Details */}
           <div className=" space-y-5 my-10">
             <h1 className="text-2xl lg:text-4xl font-bold text-left">
@@ -135,6 +146,17 @@ const RNMark = () => {
               time codes, dates and more on a variety of porous & non-porous
               surfaces with superior print resolution.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/2-RNMark/DateCoderRNJetH1+.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@/components/Layout";
+import Link from "next/link";
 const Filma = () => {
   return (
     <Layout>
@@ -83,9 +84,17 @@ const Filma = () => {
                 FP30-ES – FP30-EST – FP30-S – FP / 30-ST Side safety guards
               </li>
             </ul>
-            <button className="hover:underline hover:text-blue-600">
-              Download the PDF of the Technical Characteristics
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/4-Filma/FilmaFP10-T-ULTRA.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 2 */}
@@ -102,9 +111,17 @@ const Filma = () => {
               <li>Safety photocell</li>
               <li>Control panel with touch-screen</li>
             </ul>
-            <button className="hover:underline hover:text-blue-600">
-              Download the PDF of the Technical Characteristics
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/4-Filma/FilmaFP650.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 3 */}
@@ -135,9 +152,17 @@ const Filma = () => {
               </li>
               <li>Special heights up to pallets H = 3000 mm</li>
             </ul>
-            <button className="hover:underline hover:text-blue-600">
-              Download the PDF of the Technical Characteristics
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/4-Filma/FilmaFP6500.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 4 */}
@@ -171,9 +196,17 @@ const Filma = () => {
                 pre-stretched film)
               </li>
             </ul>
-            <button className="hover:underline hover:text-blue-600">
-              Download the PDF of the Technical Characteristics
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/4-Filma/FilmaFP460.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Filma Taping Machines */}
@@ -234,6 +267,17 @@ const Filma = () => {
               <li>standard voltage: 380 v – 50 hz – 3 phase</li>
               <li>machine dimensions: 720 mm x 920 mm (width x length)</li>
             </ul>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/4-Filma/SC1-500-A TAPING MACHINE.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Product 2 */}
@@ -278,6 +322,17 @@ const Filma = () => {
               <li>standard voltage: 380 v – 50 hz – 3 phase</li>
               <li>machine dimensions: 720 mm x 920 mm (width x length)</li>
             </ul>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/4-Filma/SC1-500-MTAPINGMACHINE.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

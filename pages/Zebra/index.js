@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Link from "next/link";
 import React from "react";
 
 const Zebra = () => {
@@ -74,6 +75,17 @@ const Zebra = () => {
               are designed to provide 24/7 reliability. Don’t compromise, choose
               Zebra for your high- to mid-volume applications.
             </h3>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/3-Zebra/industrialPrinters.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*--------------------- Products 2 ---------------------*/}
@@ -91,6 +103,17 @@ const Zebra = () => {
               printer at every price point for every industry, and accessories
               for a complete portable solution.
             </h3>
+             {/*------------------- download Manual -----------------------------*/}
+             <Link
+              href="./dataSheets/3-Zebra/MobilePrinters.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*--------------------- Products 3 ---------------------*/}
@@ -108,6 +131,17 @@ const Zebra = () => {
               or RFID cards, Zebra printers offer the security, supplies and
               software you need for a full solution.
             </h3>
+             {/*------------------- download Manual -----------------------------*/}
+             <Link
+              href="./dataSheets/3-Zebra/CardandBadgePrinters.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*--------------------- Products 4 ---------------------*/}
@@ -125,6 +159,17 @@ const Zebra = () => {
               printed and encoded RAIN RFID labels, tags and cards to deliver
               reliable data.
             </h3>
+             {/*------------------- download Manual -----------------------------*/}
+             <Link
+              href="./dataSheets/3-Zebra/RFIDPrinters.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*--------------------- Products 5 ---------------------*/}
@@ -142,6 +187,17 @@ const Zebra = () => {
               label printers set the standard for reliable operation in any
               environment.
             </h3>
+             {/*------------------- download Manual -----------------------------*/}
+             <Link
+              href="./dataSheets/3-Zebra/PrintEngines.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

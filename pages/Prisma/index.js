@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@/components/Layout";
+import Link from "next/link";
 const Prisma = () => {
   return (
     <Layout>
@@ -84,6 +85,7 @@ const Prisma = () => {
               1 g and throughput of 80ppm, the 2CW51 is the ideal way to get
               PRISMA check weighers quality at a low cost.
             </p>
+            
           </div>
         </div>
         {/* Product 2 */}
@@ -107,6 +109,17 @@ const Prisma = () => {
               speeds. This makes the instrument ideal to check high value, low
               stability products.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/6-Prisma/Prisma 35d3.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -114,7 +127,7 @@ const Prisma = () => {
       {/*--------------------  Introduction -- 2 --------------------*/}
       {/* ------------------------------------------------------------ */}
       <div className=" w-[90%] lg:w-[60%] mx-auto my-20">
-        {/* Ohaus Advantage */}
+        {/* Prisma Advantage */}
         <div className="my-10 space-y-4">
           <h1 className="text-2xl lg:text-4xl font-bold text-left">
             Prisma Metal Detectors
@@ -190,9 +203,17 @@ const Prisma = () => {
               between detection and closing the package, which can be made from
               any material.
             </p>
-            <button className="hover:underline hover:text-blue-600">
-              Datasheet Vertical Metal Detector MDC11
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/6-Prisma/Prisma MDC11.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Products 2*/}
@@ -225,9 +246,17 @@ const Prisma = () => {
               protecting it from biological, radiological, chemical and physical
               risks.
             </p>
-            <button className="hover:underline hover:text-blue-600">
-              Datasheet Metal detector HACCP CCP MFS11
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/6-Prisma/Prisma MFS11.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -311,9 +340,17 @@ const Prisma = () => {
               capacity of 1500 g and dimensions up to 200 x 100 mm.
               Implementable with integrated weighing system.
             </p>
-            <button className="hover:underline hover:text-blue-600">
-              Datasheet Food x-ray machine 2XR51
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link
+              href="./dataSheets/6-Prisma/Prisma 2XR51.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/* Products 2*/}
@@ -339,9 +376,17 @@ const Prisma = () => {
               presides with the maximum effectiveness the critical control
               points and is the best guarantee for the protection of your brand.
             </p>
-            <button className="hover:underline hover:text-blue-600">
-              Datasheet 2XR11 – X-ray inspection for food products
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            {/* <Link
+              href="./dataSheets/6-Prisma/Prisma 2XR11.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link> */}
           </div>
         </div>
         {/* Products 3*/}
@@ -368,9 +413,17 @@ const Prisma = () => {
               construction quality, advanced software, and top-quality
               components.
             </p>
-            <button className="hover:underline hover:text-blue-600">
-            Datasheet X-ray inspection system 3XR11
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            {/* <Link
+              href="./dataSheets/6-Prisma/Prisma 3XR11.pdf"
+              target="_blank"
+            >
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link> */}
           </div>
         </div>
       </div>

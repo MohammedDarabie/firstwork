@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Link from "next/link";
 import React from "react";
 
 const Linx = () => {
@@ -82,9 +83,14 @@ const Linx = () => {
               <li>Quick operation with simple touch screen interface</li>
               <li>Primary and secondary packaging with one printer</li>
             </ul>
-            <button className="hover:underline hover:text-blue-600">
-              Download Manual
-            </button>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/1-Linx/Linx-8900.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*------------------- Linx Products 2 -----------------------------*/}
@@ -116,6 +122,14 @@ const Linx = () => {
               </li>
               <li>Automatic code setup for faster, error-free coding</li>
             </ul>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/1-Linx/Linx_7900.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*------------------- Details 2 -----------------------------*/}
@@ -155,6 +169,14 @@ const Linx = () => {
             <p className="text-lg lg:text-xl text-left">
               Low cost of ownership, increased uptime, easy to use.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/1-Linx/tt500.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*------------------- Products // 3 -----------------------------*/}
@@ -177,6 +199,14 @@ const Linx = () => {
             <p className="text-lg lg:text-xl text-left">
               Low cost of ownership, increased uptime, easy to use.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/1-Linx/tt750.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*------------------- Products // 4 -----------------------------*/}
@@ -199,6 +229,14 @@ const Linx = () => {
             <p className="text-lg lg:text-xl text-left">
               Low cost of ownership, increased uptime, easy to use.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/1-Linx/tt1000.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*------------------- Details 3 -------------------*/}
@@ -235,7 +273,14 @@ const Linx = () => {
             <p className="text-lg lg:text-xl text-left">
               For more information on Linx Laser marking products, see LINX
               <br />
-              <button className="underline "> laser brochure</button>
+              {/*------------------- download Manual -----------------------------*/}
+              <Link href="./dataSheets/1-Linx/LaserCoder.pdf" target="_blank">
+                <button>
+                  <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                    Download Manual
+                  </p>
+                </button>
+              </Link>
             </p>
           </div>
         </div>
@@ -262,6 +307,14 @@ const Linx = () => {
               They can print text, logos and graphics up to 53mm (IJ355) or 70mm
               (IJ375) high onto porous substrates such as paper, card and wood.
             </p>
+            {/*------------------- download Manual -----------------------------*/}
+            <Link href="./dataSheets/1-Linx/largeChar.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Download Manual
+                </p>
+              </button>
+            </Link>
           </div>
         </div>
         {/*------------------- Details 3 -------------------*/}
