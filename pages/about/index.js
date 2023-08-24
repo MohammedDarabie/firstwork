@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import React from "react";
 import Swipper from "@/components/Swipper";
+import Link from "next/link";
 const About = () => {
   const brandsLinks = [
     { alt: "brands_log", path: "./img/brands/extend_logo.png" },
@@ -200,9 +201,9 @@ const About = () => {
         <p className=" text-xl lg:text-3xl  font-bold ">
           Need Help With Easier Industrial Solutions? We Are Experts!
         </p>
-        <button className="bg-sky-600 px-5 py-2 lg:px-5 lg:py-3 text-white rounded-md lg:rounded-full hover:shadow-2xl">
+        <Link  href='./dataSheets/company_Profile.pdf'><button className="bg-sky-600 px-5 py-2 lg:px-5 lg:py-3 text-white rounded-md lg:rounded-full hover:shadow-2xl">
           Let's Talk
-        </button>
+        </button></Link>
       </div>
       {/* First Swipper */}
       <div className="mb-20 lg:w-[75%] mx-auto">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { BsLinkedin, BsWhatsapp, BsTwitter } from "react-icons/bs";
+import { BsLinkedin, BsWhatsapp, BsTwitter , BsArrowDownShort } from "react-icons/bs";
 //
 // import Container from "react-bootstrap/Container";
 // import Navbar from "react-bootstrap/Navbar";
@@ -201,7 +201,7 @@ const Header = () => {
                 <a>
                   Printing Solutions
                   <label title="toggle menu" for="services">
-                    <i class="fa fa-caret-down menu-downicon"></i>
+                    <BsArrowDownShort  class="fa fa-caret-down menu-downicon"></BsArrowDownShort>
                     <i class="fa fa-caret-right menu-righticon"></i>
                   </label>
                 </a>
@@ -222,8 +222,10 @@ const Header = () => {
                 <a>
                   Wrapping and Taping
                   <label title="toggle menu" for="services2">
-                    <i class="fa fa-caret-down menu-downicon"></i>
+                  <BsArrowDownShort  class="fa fa-caret-down menu-downicon"></BsArrowDownShort>
                     <i class="fa fa-caret-right menu-righticon"></i>
+                    {/* <i class="fa fa-caret-down menu-downicon"></i>
+                    <i class="fa fa-caret-right menu-righticon"></i> */}
                   </label>
                 </a>
                 <input type="checkbox" id="services2" />
