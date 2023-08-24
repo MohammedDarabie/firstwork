@@ -277,7 +277,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="flex space-x-3 mt-2 lg:mt-0">
-        <Link href="https://wa.me/966557912129">
+        <Link href="https://wa.me/966557912129" target="_blank">
           <BsWhatsapp className=" text-3xl cursor-pointer text-green-600" />
         </Link>
         <BsLinkedin className=" text-3xl cursor-pointer text-blue-600" />

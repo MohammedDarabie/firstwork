@@ -75,10 +75,7 @@ const Footer = () => {
             <Link href="/home/#brands">
               <li className="cursor-pointer">Brands</li>
             </Link>
-            <Link href="/">
-              <li className="cursor-pointer">Contact Us</li>
-            </Link>
-            <Link href="/">
+            <Link href="https://wa.me/966557912129" target="_blank">
               <li className="cursor-pointer">WhatsApp</li>
             </Link>
           </ul>
