@@ -37,8 +37,7 @@ const About = () => {
     { alt: "brands_log", path: "./img/Logos/cabels/mada.jpg" },
     { alt: "brands_log", path: "./img/Logos/cabels/view.png" },
   ];
-  return (
-    <Layout>
+  return ( <Layout>
       {/* About Us Image */}
       <div
         style={{ backgroundImage: "url(./img/aboutUs.jpg)" }}
@@ -216,6 +215,7 @@ const About = () => {
         <Swipper brand={customersLinks} />
       </div>
     </Layout>
+
   );
 };
 

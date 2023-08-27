@@ -1,8 +1,13 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Link from "next/link";
+import Head from "next/head";
 const Prisma = () => {
   return (
+    <>
+    <Head>
+      <title>Prisma - ITEC</title>
+    </Head>
     <Layout>
       {/* Store Front Image */}
       <div className="lg:w-[60%] mx-auto  ">
@@ -428,6 +433,7 @@ const Prisma = () => {
         </div>
       </div>
     </Layout>
+    </>
   );
 };
 
