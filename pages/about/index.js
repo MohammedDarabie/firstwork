@@ -99,10 +99,21 @@ const About = () => {
       {/* ------------------------------------------------------------ */}
       {/*-------------------- Download Itec Profile --------------------*/}
       {/* ------------------------------------------------------------ */}
-      <div className="w-[75%] mx-auto text-center border-b-2 border-black pb-10 lg:border-b-0">
-        <button className="text-white bg-sky-600 px-5 py-3 rounded-full my-20 hover:shadow-2xl">
-          Download ITEC Profile
-        </button>
+      <div className="w-[75%] mx-auto text-center border-b-2 border-black pb-10 lg:border-b-0 space-x-3">
+      <Link href="./dataSheets/company_Profile.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Company Profile (EN)
+                </p>
+              </button>
+            </Link>
+      <Link href="./dataSheets/arabic_profile.pdf" target="_blank">
+              <button>
+                <p className="px-3 py-2 bg-blue-700 rounded-lg text-white my-3">
+                  Company Profile (AR)
+                </p>
+              </button>
+            </Link>
       </div>
       {/* ------------------------------------------------------------ */}
       {/*--------------------  Facts --------------------*/}
